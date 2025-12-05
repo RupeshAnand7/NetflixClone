@@ -1,0 +1,854 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: rgb(0, 0, 0);
+ }
+
+ .backgroundimagebox {
+     height: 100vh;
+     background-image: radial-gradient(ellipse at center,
+             rgba(0, 0, 0, 0) 40%,
+             rgb(0, 0, 0) 100%), url(assets/bg.jpg);
+     background-position: center center;
+ }
+
+ .blackbox {
+     height: 100vh;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.607);
+ }
+
+ .firstbox {
+     height: 10vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .navigation {
+     width: 80vw;
+     height: 10vh;
+     display: flex;
+     align-self: flex-start;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
+ }
+
+ .logo img {
+     width: 140px;
+ }
+
+ .twobuttons {
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     gap: 10px;
+ }
+
+ #englishbutton {
+     padding: 7px 15px;
+     background-color: rgba(229, 9, 24, 0);
+     color: rgb(214, 214, 214);
+     font-size: 14px;
+     font-weight: 600;
+     font-family: "Montserrat", sans-serif;
+     border: 1px solid rgb(214, 214, 214);
+     border-radius: 4px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #signinbutton {
+     padding: 7px 15px;
+     background-color: rgb(229, 9, 23);
+     color: white;
+     font-size: 14px;
+     font-weight: 600;
+     font-family: "Montserrat", sans-serif;
+     border: 1px solid rgb(229, 9, 23);
+     border-radius: 4px;
+ }
+
+ #downarrow {
+     width: 20px;
+ }
+
+ #languageicon {
+     width: 20px;
+ }
+
+ .secondbox {
+     height: 90vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .smallofsecond {
+     width: 40vw;
+ }
+
+ .smallofsecond h1 {
+     text-align: center;
+     color: white;
+     font-weight: 700;
+     font-family: "Montserrat", sans-serif;
+     font-size: 56px;
+ }
+
+ .smallofsecond p {
+     text-align: center;
+     color: white;
+     font-weight: 600;
+     font-family: "Montserrat", sans-serif;
+     font-size: 20px;
+ }
+
+ #thirdsmallofsecond p {
+     text-align: center;
+     color: white;
+     font-weight: 450;
+     font-family: "Montserrat", sans-serif;
+     font-size: 16px;
+ }
+
+ #fourthsmallofsecond {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ .getstarted {
+     height: 7vh;
+     padding: 10px 25px;
+     background-color: red;
+     color: white;
+     font-size: 24px;
+     font-weight: 700;
+     font-family: "Montserrat", sans-serif;
+     border: 1px solid rgb(229, 9, 23);
+     border-radius: 6px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #rightarrowsvg {
+     width: 30px;
+ }
+
+ #inputemail {
+     height: 7vh;
+     width: 24vw;
+     border-radius: 6px;
+     border: 1px solid rgb(97, 93, 93);
+     background-color: rgba(0, 0, 0, 0.288);
+     padding-left: 20px;
+     padding-right: 20px;
+     color: rgb(255, 255, 255);
+     font-weight: 600;
+     font-size: 16px;
+ }
+
+ #inputemail::placeholder {
+     color: rgb(80, 80, 80);
+     font-size: 16px;
+     font-weight: 600;
+ }
+
+ .trendingnow {
+     margin: auto;
+     height: auto;
+     margin-top: 50px;
+ }
+
+ .trendingnowtext {
+     margin-top: 20px;
+     margin-bottom: 15px;
+     font-family: "Montserrat", sans-serif;
+     color: white;
+     font-weight: 650;
+     font-size: 24px;
+     text-align: left;
+ }
+
+ .trendingnowtextcontainer {
+     margin: auto;
+     width: 90vw;
+     height: 10vh;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ .section2 {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .trendingnowcontentsflexbox {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     flex-wrap: wrap;
+ }
+
+ .trendingnowcard {
+     transition: 0.3s;
+ }
+
+ .trendingnowcard:hover {
+     transform: scale(1.05);
+ }
+
+ .trendingnowcard1 {
+     width: 180px;
+     height: 260px;
+     background-color: aqua;
+     border-radius: 9px;
+     background-image: url(assets/trendingnowcard1.jpg);
+     background-position: center center;
+ }
+
+ .trendingnowcard2 {
+     width: 180px;
+     height: 260px;
+     background-color: aqua;
+     border-radius: 9px;
+     background-image: url(assets/trendingnowcard2.jpg);
+     background-position: center center;
+ }
+
+ .trendingnowcard3 {
+     width: 180px;
+     height: 260px;
+     background-color: aqua;
+     border-radius: 9px;
+     background-image: url(assets/trendingnowcard3.jpg);
+     background-position: center center;
+ }
+
+ .trendingnowcard4 {
+     width: 180px;
+     height: 260px;
+     background-color: aqua;
+     border-radius: 9px;
+     background-image: url(assets/trendingnowcard4.jpg);
+     background-position: center center;
+ }
+
+ .trendingnowcard5 {
+     width: 180px;
+     height: 260px;
+     background-color: aqua;
+     border-radius: 9px;
+     background-image: url(assets/trendingnowcard5.jpg);
+     background-position: center center;
+ }
+
+ .section3 {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .morereasonstojoincontainer {
+     margin: auto;
+     width: 90vw;
+     height: 10vh;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ .morereasonstojoincontainertext {
+     margin-top: 20px;
+     margin-bottom: 15px;
+     font-family: "Montserrat", sans-serif;
+     color: white;
+     font-weight: 650;
+     font-size: 24px;
+     text-align: left;
+ }
+
+ .morereasonstojoinflexbox {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ .morereasontojoincard {
+     transition: 0.3s;
+ }
+
+ .morereasontojoincard1 {
+     width: 250px;
+     height: 250px;
+     margin: 20px;
+     padding: 20px;
+     border-radius: 20px;
+     background: linear-gradient(135deg, #1b1d3b, #210f19);
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     justify-content: flex-start;
+     align-items: flex-start;
+ }
+
+ .morereasonstojoinheading {
+     margin-top: 20px;
+     margin-bottom: 15px;
+     font-family: "Montserrat", sans-serif;
+     color: white;
+     font-weight: 650;
+     font-size: 20px;
+     text-align: left;
+     text-align: left;
+ }
+
+ .morereasonstojointext {
+     text-align: center;
+     color: rgb(255, 255, 255);
+     font-weight: 450;
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     text-align: left;
+     color: rgb(182, 181, 181);
+ }
+
+ .netflixlogosvg {
+     width: 25px;
+     align-self: flex-end;
+     margin-top: auto;
+ }
+
+ .containerwithinsection4 {
+     margin: auto;
+     width: 83vw;
+     height: auto;
+     background-color: rgb(45, 45, 45);
+     border-radius: 2px;
+     padding: 25px 20px;
+     font-family: "Montserrat", sans-serif;
+     color: white;
+     font-size: 24px;
+     font-weight: 450;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .plussign {
+     width: 30px;
+ }
+
+ .faqheading {
+     margin: auto;
+     width: 90vw;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     font-family: "Montserrat", sans-serif;
+     color: white;
+     font-weight: 650;
+     font-size: 24px;
+
+ }
+
+ .section4 {
+     display: flex;
+     flex-direction: column;
+     gap: 7px;
+ }
+
+ .section5 {
+     margin-top: 70px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .readytowatch {
+     text-align: center;
+     color: white;
+     font-weight: 450;
+     font-family: "Montserrat", sans-serif;
+     font-size: 16px;
+ }
+
+ .emailandgetstarted {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+     gap: 7px;
+ }
+
+ .secondgetstarted {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: red;
+     color: white;
+     font-family: "Montserrat", sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-radius: 5px;
+ }
+
+ .secondinput {
+     padding-top: 8px;
+     padding-bottom: 8px;
+     width: 30vw;
+     border-radius: 6px;
+     border: 1px solid rgb(97, 93, 93);
+     background-color: rgba(0, 0, 0, 0.288);
+     padding-left: 20px;
+     padding-right: 20px;
+     color: rgb(255, 255, 255) !important;
+     font-weight: 400;
+     font-size: 14px;
+ }
+
+ .secondinput::placeholder {
+     color: rgb(141, 141, 141);
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ .secondrightarrow {
+     width: 20px;
+ }
+
+ .section6 {
+     margin: auto;
+     width: 85vw;
+     margin-top: 30px;
+     height: auto;
+ }
+
+ .questions {
+     font-size: 18px;
+     color: rgb(146, 144, 144);
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ a {
+     color: rgb(146, 144, 144);
+     font-family: "Montserrat", sans-serif;
+     font-size: 16px;
+ }
+
+ .gridbox {
+     margin-top: 30px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     gap: 10px;
+ }
+
+ .texty a {
+     color: rgb(195, 195, 195);
+ }
+
+ .section7 {
+     margin: auto;
+     margin-top: 50px;
+     margin-bottom: 200px;
+     width: 85vw;
+     height: 20vh;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-between;
+ }
+
+ .netflixindia {
+     color: rgb(195, 195, 195);
+     font-family: "Montserrat", sans-serif;
+     font-size: 16px;
+ }
+
+ .thispageisprotectedby {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: rgb(195, 195, 195);
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+ }
+
+ .thispageisprotectedby a {
+     display: inline;
+     color: #2c75d4;
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+ }
+
+ .secondenglish {
+     padding: 7px 15px;
+     background-color: rgba(229, 9, 24, 0);
+     color: rgb(214, 214, 214);
+     font-size: 14px;
+     font-weight: 600;
+     font-family: "Montserrat", sans-serif;
+     border: 1px solid rgb(214, 214, 214);
+     border-radius: 4px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ @media screen and (max-width:1000px) {
+     #fourthsmallofsecond {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+     }
+
+     .logo img {
+         width: 100px;
+     }
+
+     #englishbutton {
+         padding: 7px 15px;
+         background-color: rgba(229, 9, 24, 0);
+         color: rgb(214, 214, 214);
+         font-size: 0px;
+         font-weight: 600;
+         font-family: "Montserrat", sans-serif;
+         border: 1px solid rgb(214, 214, 214);
+         border-radius: 4px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .smallofsecond h1 {
+         text-align: center;
+         color: white;
+         font-weight: 700;
+         font-family: "Montserrat", sans-serif;
+         font-size: 32px;
+     }
+
+     .smallofsecond p {
+         text-align: center;
+         color: white;
+         font-weight: 600;
+         font-family: "Montserrat", sans-serif;
+         font-size: 13px;
+     }
+
+     #thirdsmallofsecond p {
+         text-align: center;
+         color: white;
+         font-weight: 450;
+         font-family: "Montserrat", sans-serif;
+         font-size: 10px;
+     }
+
+     #inputemail {
+         height: 4vh;
+         width: 35vw;
+         border-radius: 6px;
+         border: 1px solid rgb(214, 214, 214);
+         background-color: rgba(0, 0, 0, 0.288);
+         padding-left: 20px;
+         padding-right: 20px;
+         color: white;
+         font-weight: 600;
+         font-size: 16px;
+     }
+
+     #inputemail::placeholder {
+         color: rgb(214, 214, 214);
+         font-size: 12px;
+         font-weight: 400;
+     }
+
+     .getstarted {
+         height: 4vh;
+         width: 40vw;
+         padding: 10px 25px;
+         background-color: red;
+         color: white;
+         font-size: 16px;
+         font-weight: 700;
+         font-family: "Montserrat", sans-serif;
+         border: 1px solid rgb(229, 9, 23);
+         border-radius: 6px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     #rightarrowsvg {
+         width: 20px;
+     }
+
+     .secondbox {
+         height: 80vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: 20px;
+     }
+
+     .blackbox {
+         height: 80vh;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.607);
+     }
+
+     .backgroundimagebox {
+         height: 80vh;
+         background-image: radial-gradient(ellipse at center,
+                 rgba(0, 0, 0, 0) 40%,
+                 rgb(0, 0, 0) 100%), url(assets/bg.jpg);
+         background-position: center center;
+     }
+
+     .morereasonstojoinflexbox {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+     }
+
+     .morereasontojoincard1 {
+         width: 90vw;
+         height: auto;
+         margin: 20px;
+         padding: 30px;
+         border-radius: 20px;
+         background: linear-gradient(135deg, #1b1d3b, #210f19);
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         justify-content: flex-start;
+         align-items: flex-start;
+     }
+
+     .netflixlogosvg {
+         width: 25px;
+         align-self: flex-end;
+         margin-bottom: 10px;
+     }
+
+     .gridbox {
+         margin-top: 30px;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         gap: 10px;
+     }
+
+     a {
+         color: rgb(146, 144, 144);
+         font-family: "Montserrat", sans-serif;
+         font-size: 16px;
+     }
+ }
+
+ @media screen and (max-width:800px) {
+     .gridbox {
+         margin-top: 30px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 10px;
+     }
+
+     a {
+         color: rgb(146, 144, 144);
+         font-family: "Montserrat", sans-serif;
+         font-size: 14px;
+     }
+ }
+
+ @media screen and (max-width:500px) {
+     .trendingnowcontentsflexbox {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 20px;
+         flex-direction: column;
+     }
+
+     .trendingnowtextconatiner {
+         margin: auto;
+         width: 90vw;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .trendingnowtextcontainer {
+         margin: auto;
+         width: 90vw;
+         height: 10vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     #inputemail {
+         height: 4vh;
+         width: 35vw;
+         border-radius: 6px;
+         border: 1px solid rgb(214, 214, 214);
+         background-color: rgba(0, 0, 0, 0.288);
+         padding-left: 20px;
+         padding-right: 20px;
+         color: white;
+         font-weight: 600;
+         font-size: 16px;
+     }
+
+     #inputemail::placeholder {
+         color: rgb(214, 214, 214);
+         font-size: 12px;
+         font-weight: 400;
+     }
+
+     .getstarted {
+         height: 4vh;
+         width: 45vw;
+         padding: 10px 25px;
+         background-color: red;
+         color: white;
+         font-size: 12px;
+         font-weight: 700;
+         font-family: "Montserrat", sans-serif;
+         border: 1px solid rgb(229, 9, 23);
+         border-radius: 6px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     #rightarrowsvg {
+         width: 20px;
+     }
+
+     .faqheading {
+         width: 95vw;
+         height: auto;
+         display: flex;
+         align-items: center;
+         justify-content: flex-start;
+         font-family: "Montserrat", sans-serif;
+         color: white;
+         font-weight: 650;
+         font-size: 20px;
+     }
+
+     .containerwithinsection4 {
+         margin: auto;
+         width: 83vw;
+         height: auto;
+         background-color: rgb(45, 45, 45);
+         border-radius: 2px;
+         padding: 25px 20px;
+         font-family: "Montserrat", sans-serif;
+         color: white;
+         font-size: 14px;
+         font-weight: 450;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+
+     .plussign {
+         width: 20px;
+     }
+
+     .gridbox {
+         margin-top: 30px;
+         display: grid;
+         grid-template-columns: 1fr;
+         gap: 10px;
+     }
+
+     a {
+         color: rgb(146, 144, 144);
+         font-family: "Montserrat", sans-serif;
+         font-size: 14px;
+     }
+ }
+
+ @media screen and (max-width:650px) {
+     .readytowatch {
+         text-align: center;
+         color: white;
+         font-weight: 450;
+         font-family: "Montserrat", sans-serif;
+         font-size: 16px;
+     }
+
+     .emailandgetstarted {
+         flex-direction: column;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 20px;
+         gap: 7px;
+     }
+
+     .secondgetstarted {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: red;
+         color: white;
+         font-family: "Montserrat", sans-serif;
+         font-size: 18px;
+         font-weight: 600;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         padding-left: 20px;
+         padding-right: 20px;
+         border-radius: 5px;
+     }
+
+     .secondinput {
+         padding-top: 8px;
+         padding-bottom: 8px;
+         width: 30vw;
+         border-radius: 6px;
+         border: 1px solid rgb(97, 93, 93);
+         background-color: rgba(0, 0, 0, 0.288);
+         padding-left: 20px;
+         padding-right: 20px;
+         color: rgb(31, 30, 30);
+         font-weight: 400;
+         font-size: 14px;
+     }
+
+     .secondrightarrow {
+         width: 20px;
+     }
+ }
